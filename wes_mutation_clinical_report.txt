@@ -1,0 +1,128 @@
+=========================================
+CGGA 286 WES CLINICAL & GENOMIC MUTATION REPORT
+=========================================
+
+--- 1. CLINICAL COHORT SUMMARY ---
+Total Patients: 286
+
+Subtype Distribution:
+Subtype
+Primary LGG      126
+Recurrent LGG     58
+Primary GBM       54
+Recurrent GBM     48
+
+WHO Grade Distribution:
+Grade
+WHO IV     102
+WHO II      93
+WHO III     91
+
+Gender Distribution:
+Gender
+Male      168
+Female    118
+
+Chemotherapy Status (TMZ):
+Chemo_status (TMZ treated=1;un-treated=0)
+1.0    185
+0.0     76
+
+Radiotherapy Status:
+Radio_status (treated=1;un-treated=0)
+1.0    231
+0.0     39
+
+IDH Mutation Status:
+IDH_mut_status
+Mutant      161
+Wildtype    125
+
+MGMT Promoter Methylation Status:
+MGMTp_methylation_status
+methylated       119
+un-methylated     65
+
+
+--- 2. TOP SOMATIC MUTATED GENES ---
+Gene Name	Mutation Rate (%)
+IDH1	46.85%
+TP53	45.80%
+ATRX	29.72%
+CIC	14.34%
+TTN, MIR548N, TTN-AS1	10.14%
+NOTCH1	8.39%
+MUC16	7.69%
+NF1	6.99%
+PTEN	6.64%
+PIK3CA	5.94%
+TTN	5.94%
+MUC12	5.24%
+NIPBL	5.24%
+AHNAK	4.90%
+PIK3R1	4.90%
+FLG	4.90%
+SETD2	4.90%
+PDGFRA	4.55%
+BCOR	4.20%
+FUBP1	4.20%
+ARID1A	4.20%
+RYR2	3.85%
+LAMA3	3.85%
+EGFR	3.85%
+DNAH5	3.85%
+MUC17	3.85%
+RYR1	3.85%
+DSP	3.50%
+OBSCN	3.50%
+SYNE1	3.50%
+
+
+--- 3. MUTATION RATES OF TARGET GBM DRIVERS ---
+IDH1: 46.85%
+TP53: 45.80%
+ATRX: 29.72%
+PTEN: 6.64%
+EGFR: 3.85%
+CIC: 14.34%
+OBSCN: 3.50%
+AHNAK2: 2.45%
+TERT: 0.35%
+
+
+--- 4. SOMATIC MUTATIONS & PATIENT SURVIVAL CORRELATION ---
+
+OBSCN Mutation Status:
+  Mutated Patients count: 10
+  Mutated Group Mean OS: 908.2 days
+  Wildtype Group Mean OS: 1296.6 days
+  Mutated Group Death Rate: 60.0%
+  Wildtype Group Death Rate: 52.7%
+
+AHNAK2 Mutation Status:
+  Mutated Patients count: 7
+  Mutated Group Mean OS: 567.9 days
+  Wildtype Group Mean OS: 1301.3 days
+  Mutated Group Death Rate: 71.4%
+  Wildtype Group Death Rate: 52.5%
+
+TP53 Mutation Status:
+  Mutated Patients count: 120
+  Mutated Group Mean OS: 1092.5 days
+  Wildtype Group Mean OS: 1437.7 days
+  Mutated Group Death Rate: 64.2%
+  Wildtype Group Death Rate: 43.8%
+
+PTEN Mutation Status:
+  Mutated Patients count: 19
+  Mutated Group Mean OS: 478.5 days
+  Wildtype Group Mean OS: 1343.8 days
+  Mutated Group Death Rate: 89.5%
+  Wildtype Group Death Rate: 50.2%
+
+IDH1 Mutation Status:
+  Mutated Patients count: 124
+  Mutated Group Mean OS: 1476.6 days
+  Wildtype Group Mean OS: 1112.0 days
+  Mutated Group Death Rate: 36.3%
+  Wildtype Group Death Rate: 67.6%

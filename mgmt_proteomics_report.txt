@@ -1,0 +1,59 @@
+=========================================
+MGMT METHYLATION VS. PROTEOMICS & PHOSPHOPROTEOMICS ANALYSIS
+=========================================
+
+Correlation of top MGMT methylation probes with MGMT Protein Abundance:
+Probe_ID	Pearson_R	P_Value
+cg15765353	0.1221	6.9108e-01
+cg21862320	0.1088	7.2346e-01
+cg13231624	-0.1449	6.3668e-01
+cg17583256	-0.1768	5.6347e-01
+cg18447506	0.0835	7.8621e-01
+
+
+--- PHOSPHOPROTEOMICS TARGET NODES ---
+
+Phosphorylation sites found for STAT3:
+  PTM.CollapseKey	Valid_Values_Count
+  STAT3_Y705	28
+  STAT3_S727	27
+
+Phosphorylation sites found for EGFR:
+  PTM.CollapseKey	Valid_Values_Count
+  EGFR_S991	35
+  EGFR_T693	30
+  EGFR_S1166	27
+  EGFR_T993	25
+  EGFR_S1039	25
+
+Phosphorylation sites found for TAZ:
+  None found
+
+Phosphorylation sites found for AKT1:
+  PTM.CollapseKey	Valid_Values_Count
+  AKT1S1_S88	35
+  AKT1S1_S212	35
+  AKT1S1_S92	34
+  AKT1S1_S203	33
+  AKT1_S129	33
+  AKT1S1_S202	33
+  AKT1S1_S183	32
+  AKT1S1_T246	32
+  AKT1S1_S211	28
+  AKT1S1_T90	26
+  AKT1_S124	21
+  AKT1_S122	17
+
+Phosphorylation sites found for MAPK1:
+  PTM.CollapseKey	Valid_Values_Count
+  MAPK1IP1L_S15	35
+  MAPK1IP1L_S6	35
+  MAPK1_S284	35
+  MAPK1_Y187	32
+  MAPK1_T185	32
+  MAPK10_Y223	33
+  MAPK1_T190	31
+  MAPK14_S2	30
+  MAPK1_T63	29
+  MAPK1_S360	29
+  MAPK10_T221	28

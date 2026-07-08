@@ -1,0 +1,10 @@
+{
+  "gene_symbol": "GRIA2",
+  "ensembl_id": "ENSG00000120251",
+  "synonyms": [
+    "GluA2",
+    "GLUR2",
+    "GLURB"
+  ],
+  "description": "Glutamate ionotropic receptor AMPA type subunit 2"
+}

@@ -1,0 +1,85 @@
+================================================================================
+HYPOTHESIS 1 TESTING: CLONAL SELECTION VS. TRANSCRIPTIONAL PLASTICITY
+================================================================================
+
+1. Overall VAF dynamics for pathogenic driver mutations:
+               TP                                                                 R1                                                               delta_vaf                                                                  
+            count      mean       std       min      25%    50%     75%    max count      mean       std       min      25%     50%     75%    max     count      mean       std    min      25%           50%     75%     max
+gene_symbol                                                                                                                                                                                                                   
+ATRX          4.0  0.490750  0.149761  0.360000  0.41175  0.449  0.5280  0.705   4.0  0.528000  0.221995  0.300000  0.36150  0.5245  0.6910  0.763       4.0  0.037250  0.147904 -0.087 -0.06675 -1.000000e-03  0.1030  0.2380
+IDH1         85.0  0.204726  0.186182  0.004788  0.01700  0.200  0.3870  0.562  85.0  0.184974  0.182457  0.005178  0.02100  0.0920  0.3500  0.594      85.0 -0.019751  0.120525 -0.417 -0.03700  1.734723e-18  0.0205  0.3895
+TP53         43.0  0.417741  0.258323  0.001116  0.25975  0.431  0.5995  0.912  43.0  0.339922  0.249836  0.009162  0.13525  0.3360  0.4405  0.857      43.0 -0.077819  0.231021 -0.614 -0.21150 -8.800000e-02  0.0325  0.4610
+
+2. Correlation between VAF change (DNA) and Expression change (RNA):
+
+Gene: IDH1 (n = 85 mutation-patient events)
+  Corr(delta_vaf, delta_CHI3L1 expression): r = -0.4605
+  Corr(delta_vaf, delta_CD44 expression): r = 0.0641
+  Corr(delta_vaf, delta_VIM expression): r = -0.2419
+
+Gene: ATRX (n = 4 mutation-patient events)
+  Corr(delta_vaf, delta_CHI3L1 expression): r = 0.8980
+  Corr(delta_vaf, delta_CD44 expression): r = 0.2244
+  Corr(delta_vaf, delta_VIM expression): r = 0.4347
+
+Gene: TP53 (n = 43 mutation-patient events)
+  Corr(delta_vaf, delta_CHI3L1 expression): r = 0.0765
+  Corr(delta_vaf, delta_CD44 expression): r = 0.2841
+  Corr(delta_vaf, delta_VIM expression): r = 0.2760
+
+3. Classification of resistance events (Selection vs. Plasticity):
+
+Target Resistance Gene: CHI3L1
+  Patients with significant expression increase (log2FC >= 1.0): 34
+    - Clonal Selection cases (|delta_vaf| >= 0.10): 21
+    - Pure Plasticity cases (|delta_vaf| < 0.10): 21
+      Selection patient details:
+     case_barcode gene_symbol  delta_vaf  delta_CHI3L1
+10   GLSS-CU-R006        TP53   0.412375      7.844758
+11   GLSS-CU-R008        TP53  -0.273000      3.840479
+20   GLSS-HF-4F0A        IDH1  -0.232000      2.629419
+21   GLSS-HF-4F0A        TP53  -0.360000      2.629419
+27   GLSS-HF-8FCD        TP53   0.375884      1.552690
+28   GLSS-HF-EE74        IDH1   0.136132      1.399483
+29   GLSS-HF-F922        IDH1  -0.417000      6.253216
+31   GLSS-HK-0001        TP53  -0.205500      2.981467
+41   GLSS-LU-00C7        IDH1  -0.161000      4.817589
+47   GLSS-MD-0012        IDH1  -0.260000      3.891530
+49   GLSS-MD-0012        TP53  -0.132000      3.891530
+52   GLSS-MD-0026        TP53  -0.115000      2.652401
+54   GLSS-MD-0027        TP53  -0.211500      1.173620
+57   GLSS-MD-0032        IDH1  -0.156000      4.889048
+58   GLSS-MD-0032        ATRX   0.238000      4.889048
+60   GLSS-MD-0049        IDH1  -0.221000      2.929261
+69   GLSS-SM-R063        TP53  -0.234000      1.756441
+86   OLIG-PT-0023        IDH1   0.127500      3.274620
+91   OLIG-SJ-0008        IDH1  -0.354329      3.752409
+92   OLIG-SJ-0011        IDH1  -0.124500      4.319424
+93   OLIG-SJ-0011        TP53  -0.254000      4.319424
+95   OLIG-SJ-0019        IDH1  -0.289500      2.626750
+106  TCGA-DU-5872        IDH1  -0.320500      5.890915
+120  TCGA-FG-A4MT        IDH1  -0.115000      2.284272
+121  TCGA-FG-A4MT        TP53  -0.211500      2.284272
+128  TCGA-TQ-A7RV        TP53  -0.112000      2.131519
+
+Target Resistance Gene: CD44
+  Patients with significant expression increase (log2FC >= 1.0): 27
+    - Clonal Selection cases (|delta_vaf| >= 0.10): 12
+    - Pure Plasticity cases (|delta_vaf| < 0.10): 19
+      Selection patient details:
+     case_barcode gene_symbol  delta_vaf  delta_CD44
+10   GLSS-CU-R006        TP53   0.412375    7.218729
+11   GLSS-CU-R008        TP53  -0.273000    1.086928
+29   GLSS-HF-F922        IDH1  -0.417000    3.432583
+31   GLSS-HK-0001        TP53  -0.205500    2.422495
+41   GLSS-LU-00C7        IDH1  -0.161000    4.896503
+57   GLSS-MD-0032        IDH1  -0.156000    2.068832
+58   GLSS-MD-0032        ATRX   0.238000    2.068832
+69   GLSS-SM-R063        TP53  -0.234000    1.915842
+86   OLIG-PT-0023        IDH1   0.127500    3.389904
+89   OLIG-SF-0396        IDH1   0.389500    5.442139
+92   OLIG-SJ-0011        IDH1  -0.124500    2.956845
+93   OLIG-SJ-0011        TP53  -0.254000    2.956845
+120  TCGA-FG-A4MT        IDH1  -0.115000    1.501842
+121  TCGA-FG-A4MT        TP53  -0.211500    1.501842
+128  TCGA-TQ-A7RV        TP53  -0.112000    1.359587

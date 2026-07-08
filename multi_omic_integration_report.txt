@@ -1,0 +1,47 @@
+=========================================
+CGGA GLIOBLASTOMA MULTI-OMIC INTEGRATION REPORT
+=========================================
+
+--- PART 1: PATIENT MATCHING ACROSS LAYERS ---
+Cohort Size (Clinical): 35
+Overlapping Patients (Clinical + RNA + Methylation): 28
+CGGA_P137, CGGA_P173, CGGA_P271, CGGA_P660, CGGA_P736, CGGA_P778, CGGA_P802, CGGA_P153, CGGA_P698, CGGA_P714, CGGA_P737, CGGA_P151, CGGA_P179, CGGA_P541, CGGA_P658, CGGA_P687, CGGA_P699, CGGA_P704, CGGA_P711, CGGA_P721, CGGA_P882, CGGA_2103, CGGA_P401, CGGA_P411, CGGA_P568, CGGA_P633, CGGA_P653, CGGA_P87
+
+
+--- PART 2: MGMT EPIGENETIC-TO-TRANSCRIPTOMIC SILENCING ANALYSIS ---
+Top 15 Methylation Probes Negatively Correlated with MGMT Expression (Gene Silencing Switches):
+Probe_ID	Pearson_R	P_Value
+cg15765353	-0.7438	5.7320e-06
+cg21862320	-0.7400	6.7674e-06
+cg13231624	-0.6911	4.6640e-05
+cg17583256	-0.6885	5.1134e-05
+cg18447506	-0.6814	6.5551e-05
+cg23997421	-0.6788	7.1691e-05
+cg13185218	-0.6709	9.3391e-05
+cg13613346	-0.6706	9.4261e-05
+cg07624075	-0.6699	9.6343e-05
+cg00807297	-0.6674	1.0481e-04
+cg17390160	-0.6660	1.0966e-04
+cg22914389	-0.6615	1.2640e-04
+cg26193484	-0.6606	1.3009e-04
+cg18852038	-0.6599	1.3334e-04
+cg24077465	-0.6580	1.4149e-04
+
+
+--- PART 3: TREATMENT-SPECIFIC METHYLATION & EXPRESSION SHIFTS ---
+Analyzing treatment-specific shifts using WES 286 clinical dataset:
+
+Survival Outcomes Across Chemotherapy & Epigenetic Status (The TMZ Chemosensitivity Loop):
+Group	Count	Mean OS (days)	Death Rate (%)
+Chemo Treated + MGMT Methylated	83	1126.9	56.6%
+Chemo Treated + MGMT Unmethylated	44	1192.6	70.5%
+Chemo Untreated + MGMT Methylated	28	1807.1	32.1%
+Chemo Untreated + MGMT Unmethylated	12	2057.9	66.7%
+
+
+--- PART 4: TRANSCRIPTIONAL SUBTYPES & SURVIVAL OUTCOMES ---
+RNA_Subtype	Count	Mean OS (days)	Death Rate (%)
+Classical	7	1812.4	14.3%
+Proneural	20	1748.0	40.0%
+Mesenchymal	5	1839.6	60.0%
+Not available	1	1077.0	100.0%

@@ -1,0 +1,726 @@
+{
+  "page_meta": {
+    "limit": 5,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Chitinase-3-like protein 1",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5724768",
+      "target_components": [
+        {
+          "accession": "P36222",
+          "component_description": "Chitinase-3-like protein 1",
+          "component_id": 23122,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "39 kDa synovial protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cartilage glycoprotein 39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CGP-39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CHI3L1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Chitinase-3-like protein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP-39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "hCGP-39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "YKL-40",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P36222",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P36222",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031012",
+              "xref_name": "extracellular matrix",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035580",
+              "xref_name": "specific granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004568",
+              "xref_name": "chitinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005201",
+              "xref_name": "extracellular matrix structural constituent",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008061",
+              "xref_name": "chitin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030246",
+              "xref_name": "carbohydrate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005975",
+              "xref_name": "carbohydrate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006032",
+              "xref_name": "chitin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006954",
+              "xref_name": "inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007250",
+              "xref_name": "activation of NF-kappaB-inducing kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009612",
+              "xref_name": "response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010800",
+              "xref_name": "positive regulation of peptidyl-threonine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030324",
+              "xref_name": "lung development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032757",
+              "xref_name": "positive regulation of interleukin-8 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034612",
+              "xref_name": "response to tumor necrosis factor",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051216",
+              "xref_name": "cartilage development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051897",
+              "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070555",
+              "xref_name": "response to interleukin-1",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070741",
+              "xref_name": "response to interleukin-6",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071356",
+              "xref_name": "cellular response to tumor necrosis factor",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:1932",
+              "xref_name": "CHI3L1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P36222",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001223",
+              "xref_name": "Glyco_hydro18_cat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011583",
+              "xref_name": "Chitinase_II/V-like_cat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017853",
+              "xref_name": "GH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029070",
+              "xref_name": "Chitinase_insertion_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050314",
+              "xref_name": "Glycosyl_Hydrlase_18",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11177",
+              "xref_name": "CHITINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11177:SF202",
+              "xref_name": "CHITINASE-3-LIKE PROTEIN 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1HJV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1HJW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1HJX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NWR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NWS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NWT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NWU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7CJ2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DF1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8R41",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8R42",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8R4X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8ZAZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1HJV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1HJW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1HJX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NWR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NWS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NWT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NWU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7CJ2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8DF1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8R41",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8R42",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8R4X",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8ZAZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00704",
+              "xref_name": "Glyco_hydro_18",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA26463",
+              "xref_name": "chitinase 3 like 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P36222",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2R7B0",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30923",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P36222",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8IVA4",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96HI7",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Chitinase-3-like protein 1",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066184",
+      "target_components": [
+        {
+          "accession": "Q61362",
+          "component_description": "Chitinase-3-like protein 1",
+          "component_id": 23390,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Breast regression protein 39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Brp39",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "BRP39 protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cartilage glycoprotein 39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CGP-39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Chi3l1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Chil1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Chitinase-3-like protein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP-39",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q61362",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q61362",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004568",
+              "xref_name": "chitinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008061",
+              "xref_name": "chitin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005975",
+              "xref_name": "carbohydrate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006032",
+              "xref_name": "chitin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006954",
+              "xref_name": "inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007250",
+              "xref_name": "activation of NF-kappaB-inducing kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009612",
+              "xref_name": "response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010800",
+              "xref_name": "positive regulation of peptidyl-threonine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030324",
+              "xref_name": "lung development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032757",
+              "xref_name": "positive regulation of interleukin-8 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034612",
+              "xref_name": "response to tumor necrosis factor",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051897",
+              "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070555",
+              "xref_name": "response to interleukin-1",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070741",
+              "xref_name": "response to interleukin-6",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071356",
+              "xref_name": "cellular response to tumor necrosis factor",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "Q61362",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001223",
+              "xref_name": "Glyco_hydro18_cat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011583",
+              "xref_name": "Chitinase_II/V-like_cat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017853",
+              "xref_name": "GH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029070",
+              "xref_name": "Chitinase_insertion_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050314",
+              "xref_name": "Glycosyl_Hydrlase_18",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11177",
+              "xref_name": "CHITINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11177:SF202",
+              "xref_name": "CHITINASE-3-LIKE PROTEIN 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5XEP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XEP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00704",
+              "xref_name": "Glyco_hydro_18",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B0FEU7",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3Z2P2",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q3U291",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q4FJW9",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q61362",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8BKL8",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q99J84",
+              "xref_name": "Chitinase-3-like protein 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    }
+  ],
+  "_license_notice": "Data from the ChEMBL Database. Please review the licensing terms at https://www.ebi.ac.uk/chembl/"
+}

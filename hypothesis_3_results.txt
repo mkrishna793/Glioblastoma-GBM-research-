@@ -1,0 +1,58 @@
+================================================================================
+HYPOTHESIS 3 TESTING: GENOTYPE-SPECIFIC IMMUNE RECIPROCAL FEEDBACK (ATRX FORK)
+================================================================================
+
+Analyzed timepoint: R1
+ATRX-Mutant cohort size: 5 samples (6 patients)
+ATRX-Wildtype cohort size: 244 samples (265 patients)
+
+Spearman Correlation between Macrophage Markers and Invasion/Matrix Markers:
+
+Pair: CD163 vs. CHI3L1
+  ATRX-WT: r =  0.735 (p = 1.08e-42)
+  ATRX-Mut: r =  0.600 (p = 2.8476e-01 if calculated)
+
+Pair: CD163 vs. MMP2
+  ATRX-WT: r =  0.281 (p = 8.58e-06)
+  ATRX-Mut: r =  0.300 (p = 6.2384e-01 if calculated)
+
+Pair: CD163 vs. MMP9
+  ATRX-WT: r =  0.529 (p = 5.02e-19)
+  ATRX-Mut: r =  0.700 (p = 1.8812e-01 if calculated)
+
+Pair: CD163 vs. FN1
+  ATRX-WT: r =  0.627 (p = 4.18e-28)
+  ATRX-Mut: r =  0.900 (p = 3.7386e-02 if calculated)
+
+Pair: CD14 vs. CHI3L1
+  ATRX-WT: r =  0.624 (p = 9.42e-28)
+  ATRX-Mut: r = -0.100 (p = 8.7289e-01 if calculated)
+
+Pair: CD14 vs. MMP2
+  ATRX-WT: r =  0.591 (p = 2.45e-24)
+  ATRX-Mut: r =  0.300 (p = 6.2384e-01 if calculated)
+
+Pair: CD14 vs. MMP9
+  ATRX-WT: r =  0.708 (p = 1.86e-38)
+  ATRX-Mut: r = -0.300 (p = 6.2384e-01 if calculated)
+
+Pair: CD14 vs. FN1
+  ATRX-WT: r =  0.636 (p = 4.75e-29)
+  ATRX-Mut: r =  0.100 (p = 8.7289e-01 if calculated)
+
+Pair: CSF1R vs. CHI3L1
+  ATRX-WT: r =  0.483 (p = 1.22e-15)
+  ATRX-Mut: r = -0.600 (p = 2.8476e-01 if calculated)
+
+Pair: CSF1R vs. MMP2
+  ATRX-WT: r =  0.520 (p = 2.56e-18)
+  ATRX-Mut: r = -0.200 (p = 7.4706e-01 if calculated)
+
+Pair: CSF1R vs. MMP9
+  ATRX-WT: r =  0.482 (p = 1.40e-15)
+  ATRX-Mut: r = -0.300 (p = 6.2384e-01 if calculated)
+
+Pair: CSF1R vs. FN1
+  ATRX-WT: r =  0.442 (p = 4.52e-13)
+  ATRX-Mut: r =  0.000 (p = 1.0000e+00 if calculated)
+

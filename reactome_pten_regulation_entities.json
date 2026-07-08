@@ -1,0 +1,46 @@
+{
+  "identifiers": [
+    {
+      "id": "PTEN",
+      "exp": [],
+      "mapsTo": [
+        {
+          "resource": "UNIPROT",
+          "ids": [
+            "P60484"
+          ]
+        },
+        {
+          "resource": "ENSEMBL",
+          "ids": [
+            "ENST00000371953",
+            "ENSG00000171862"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TP53",
+      "exp": [],
+      "mapsTo": [
+        {
+          "resource": "UNIPROT",
+          "ids": [
+            "P04637"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    "UNIPROT",
+    "ENSEMBL"
+  ],
+  "expNames": [],
+  "found": 2,
+  "totalEntitiesCount": 4,
+  "resourceToMappedEntitiesCount": {
+    "UNIPROT": 2,
+    "ENSEMBL": 2
+  }
+}

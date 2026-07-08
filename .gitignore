@@ -1,0 +1,29 @@
+# Ignore raw datasets and large clinical files
+CGGA.WEseq_286.20200506.txt
+CGGA.WEseq_286_clinical.20200506.txt
+CGGA.normal_20.Read_Counts-genes.20230104.txt
+CGGA_IDH_A_Clinical_Information.xlsx
+CGGA_IDH_A_Methylation_EPIC_Array_20250915.txt
+CGGA_IDH_A_Phosphoproteomics_MS_Abundance_20250915.txt
+CGGA_IDH_A_Proteomics_MS_Abundance_20250915.txt
+CGGA_IDH_A_RNAseq_RSEM_20250915.txt
+Ensembl2Reactome.txt
+GPL13534_brief.txt
+GPL13534_short.txt
+ReactomePathways.txt
+cpg_matched_probes.txt
+key_variants_with_barcodes.txt
+tfbs_ReMapTFs_chi3l1.json
+tfbs_encRegTfbsClustered_chi3l1.json
+
+# Ignore temporary/compiled files and logs
+.licenses/
+__MACOSX/
+*.pyc
+*.pyo
+*.log
+.git/
+.venv/
+.agents/
+.system_generated/
+.tempmediaStorage/

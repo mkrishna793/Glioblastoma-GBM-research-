@@ -1,0 +1,10 @@
+{
+  "gene_symbol": "EGFR",
+  "ensembl_id": "ENSG00000146648",
+  "synonyms": [
+    "ERBB",
+    "ERBB1",
+    "ERRP"
+  ],
+  "description": "Epidermal growth factor receptor"
+}

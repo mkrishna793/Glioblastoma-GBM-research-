@@ -1,0 +1,178 @@
+================================================================================
+DEEP MOLECULAR TRACING: ATRX MUTATION & TMZ TREATMENT STATUS
+================================================================================
+Analyzing combinations of ATRX mutation status and TMZ chemotherapy status:
+  Group 1 (ATRX WT, TMZ Treated): N=4 patients (CGGA_P153, CGGA_P179, CGGA_P411, CGGA_P633)
+  Group 2 (ATRX Mut, TMZ Treated): N=3 patients (CGGA_P151, CGGA_P568, CGGA_P87)
+  Group 3 (ATRX Mut, TMZ Untreated): N=3 patients (CGGA_P137, CGGA_P173, CGGA_P271)
+
+================================================================================
+PART 1: MOLECULAR CHANGES INDUCED BY TMZ TREATMENT IN ATRX MUTANT PATIENTS
+(Comparing Group 2: ATRX Mut + TMZ Treated vs Group 3: ATRX Mut + TMZ Untreated)
+================================================================================
+
+--- Epigenomics (DNA Methylation changes caused by treatment) ---
+  Top 10 Hypermethylated Probes in Treated (Beta increases):
+    cg05349513: Delta Beta = 0.7338 (WT Mean=0.0441 -> Treated Mean=0.7779)
+    cg02119792: Delta Beta = 0.7303 (WT Mean=0.0316 -> Treated Mean=0.7619)
+    cg18997918: Delta Beta = 0.6959 (WT Mean=0.2381 -> Treated Mean=0.9340)
+    cg16133033: Delta Beta = 0.6616 (WT Mean=0.0950 -> Treated Mean=0.7566)
+    cg03505772: Delta Beta = 0.6526 (WT Mean=0.1428 -> Treated Mean=0.7954)
+    cg04371001: Delta Beta = 0.6007 (WT Mean=0.0555 -> Treated Mean=0.6562)
+    cg27112414: Delta Beta = 0.5887 (WT Mean=0.1300 -> Treated Mean=0.7187)
+    cg10058597: Delta Beta = 0.5850 (WT Mean=0.1339 -> Treated Mean=0.7189)
+    cg09469554: Delta Beta = 0.5819 (WT Mean=0.0579 -> Treated Mean=0.6398)
+    cg09141759: Delta Beta = 0.5799 (WT Mean=0.3689 -> Treated Mean=0.9489)
+  Top 10 Hypomethylated Probes in Treated (Beta decreases):
+    cg24804948: Delta Beta = -0.8247 (WT Mean=0.8460 -> Treated Mean=0.0213)
+    cg19536652: Delta Beta = -0.8065 (WT Mean=0.8258 -> Treated Mean=0.0193)
+    cg24823308: Delta Beta = -0.8048 (WT Mean=0.9692 -> Treated Mean=0.1644)
+    cg10688297: Delta Beta = -0.7639 (WT Mean=0.9592 -> Treated Mean=0.1953)
+    cg18665871: Delta Beta = -0.7628 (WT Mean=0.8570 -> Treated Mean=0.0942)
+    cg16241932: Delta Beta = -0.7571 (WT Mean=0.8376 -> Treated Mean=0.0805)
+    cg02621032: Delta Beta = -0.7446 (WT Mean=0.8219 -> Treated Mean=0.0773)
+    cg02780293: Delta Beta = -0.7391 (WT Mean=0.9319 -> Treated Mean=0.1928)
+    cg08658244: Delta Beta = -0.7315 (WT Mean=0.8891 -> Treated Mean=0.1577)
+    cg16011559: Delta Beta = -0.7250 (WT Mean=0.7840 -> Treated Mean=0.0590)
+
+--- Transcriptomics (RNA Expression changes caused by treatment) ---
+  Top 10 Upregulated Genes in Treated:
+    IGKC: Log2FC = 7.94
+    IGHG1: Log2FC = 7.79
+    IGLC3: Log2FC = 7.37
+    IGLC1: Log2FC = 7.00
+    NRGN: Log2FC = 6.94
+    XIST: Log2FC = 6.49
+    CCK: Log2FC = 6.40
+    CALY: Log2FC = 5.95
+    H19: Log2FC = 5.91
+    SNCB: Log2FC = 5.78
+  Top 10 Downregulated Genes in Treated:
+    RPPH1: Log2FC = -13.28
+    SCARNA10: Log2FC = -9.16
+    HIST1H4C: Log2FC = -8.91
+    RN7SL2: Log2FC = -8.89
+    RN7SL1: Log2FC = -8.69
+    RN7SL3: Log2FC = -7.03
+    SCARNA2: Log2FC = -6.99
+    HIST1H4E: Log2FC = -6.43
+    HIST1H2BC: Log2FC = -5.76
+    HIST1H1E: Log2FC = -5.05
+
+  Expression changes in key markers:
+    MGMT: Log2FC = 2.02 (Untreated Mean=2.90 -> Treated Mean=14.75)
+    STAT3: Log2FC = -0.90 (Untreated Mean=34.96 -> Treated Mean=18.23)
+    EGFR: Log2FC = -2.62 (Untreated Mean=34.01 -> Treated Mean=4.71)
+    GRIA2: Log2FC = -2.09 (Untreated Mean=85.32 -> Treated Mean=19.25)
+    NLGN3: Log2FC = 0.22 (Untreated Mean=21.08 -> Treated Mean=24.64)
+    CD44: Log2FC = -1.34 (Untreated Mean=34.55 -> Treated Mean=13.09)
+    OLIG2: Log2FC = 0.28 (Untreated Mean=138.83 -> Treated Mean=168.58)
+    SOX2: Log2FC = -0.59 (Untreated Mean=219.27 -> Treated Mean=145.18)
+    CHI3L1: Log2FC = 4.25 (Untreated Mean=7.88 -> Treated Mean=168.15)
+    VIM: Log2FC = 1.45 (Untreated Mean=235.23 -> Treated Mean=644.97)
+
+--- Proteomics (Protein Abundance changes caused by treatment) ---
+    MGMT Protein: Untreated Mean=20.00 -> Treated Mean=27.45 (Delta=7.44)
+    STAT3 Protein: Untreated Mean=92.05 -> Treated Mean=64.18 (Delta=-27.87)
+    EGFR Protein: Untreated Mean=193.35 -> Treated Mean=52.77 (Delta=-140.58)
+    GRIA2 Protein: Untreated Mean=117.69 -> Treated Mean=166.71 (Delta=49.02)
+    NLGN3 Protein: Untreated Mean=196.82 -> Treated Mean=205.49 (Delta=8.68)
+    CD44 Protein: Untreated Mean=380.09 -> Treated Mean=79.49 (Delta=-300.61)
+    OLIG2 Protein: Untreated Mean=12.31 -> Treated Mean=25.94 (Delta=13.62)
+    SOX2 Protein: Untreated Mean=36.79 -> Treated Mean=31.69 (Delta=-5.10)
+    CHI3L1 Protein: Untreated Mean=84.90 -> Treated Mean=213.22 (Delta=128.32)
+    VIM Protein: Untreated Mean=6698.92 -> Treated Mean=2277.66 (Delta=-4421.26)
+
+--- Phosphoproteomics (Active Signaling changes caused by treatment) ---
+    STAT3_Y705 Phospho: Untreated Mean=1027977.31 -> Treated Mean=361745.69 (Delta=-666231.63)
+    STAT3_S727 Phospho: Untreated Mean=98008.38 -> Treated Mean=59890.65 (Delta=-38117.73)
+    EGFR_S991 Phospho: Untreated Mean=1368205.71 -> Treated Mean=270771.21 (Delta=-1097434.50)
+    EGFR_T693 Phospho: Untreated Mean=1832512.23 -> Treated Mean=552741.62 (Delta=-1279770.60)
+    AKT1_S129 Phospho: Untreated Mean=339647.17 -> Treated Mean=562505.31 (Delta=222858.14)
+    MAPK1_Y187 Phospho: Untreated Mean=9250231.72 -> Treated Mean=1004214.84 (Delta=-8246016.88)
+
+
+================================================================================
+PART 2: HOW ATRX MUTATION SHAPES THERAPY RESPONSE
+(Comparing Group 2: ATRX Mut + TMZ Treated vs Group 1: ATRX WT + TMZ Treated)
+================================================================================
+
+--- Epigenomics (DNA Methylation differences in treated patients) ---
+  Top 10 Hypermethylated Probes in ATRX-Mutant:
+    rs798149: Delta Beta = 0.8133 (WT Mean=0.1706 -> Mut Mean=0.9839)
+    cg05129470: Delta Beta = 0.7351 (WT Mean=0.0574 -> Mut Mean=0.7925)
+    cg02119792: Delta Beta = 0.7081 (WT Mean=0.0538 -> Mut Mean=0.7619)
+    rs3936238: Delta Beta = 0.7053 (WT Mean=0.2773 -> Mut Mean=0.9825)
+    cg11857805: Delta Beta = 0.6411 (WT Mean=0.1686 -> Mut Mean=0.8097)
+    cg27225663: Delta Beta = 0.6361 (WT Mean=0.1813 -> Mut Mean=0.8174)
+    cg07646083: Delta Beta = 0.6046 (WT Mean=0.3046 -> Mut Mean=0.9092)
+    cg23167218: Delta Beta = 0.6009 (WT Mean=0.0184 -> Mut Mean=0.6193)
+    cg18981420: Delta Beta = 0.5763 (WT Mean=0.1469 -> Mut Mean=0.7231)
+    cg10915165: Delta Beta = 0.5759 (WT Mean=0.2772 -> Mut Mean=0.8531)
+  Top 10 Hypomethylated Probes in ATRX-Mutant:
+    cg08845486: Delta Beta = -0.7184 (WT Mean=0.7329 -> Mut Mean=0.0145)
+    cg02621032: Delta Beta = -0.7125 (WT Mean=0.7898 -> Mut Mean=0.0773)
+    cg15000684: Delta Beta = -0.7095 (WT Mean=0.7344 -> Mut Mean=0.0248)
+    cg13184723: Delta Beta = -0.6933 (WT Mean=0.7250 -> Mut Mean=0.0317)
+    cg12435665: Delta Beta = -0.6843 (WT Mean=0.7372 -> Mut Mean=0.0529)
+    cg00958884: Delta Beta = -0.6725 (WT Mean=0.7206 -> Mut Mean=0.0481)
+    cg11294950: Delta Beta = -0.6542 (WT Mean=0.6955 -> Mut Mean=0.0413)
+    cg00668151: Delta Beta = -0.6485 (WT Mean=0.9473 -> Mut Mean=0.2988)
+    cg06112727: Delta Beta = -0.6459 (WT Mean=0.9801 -> Mut Mean=0.3342)
+    cg09863391: Delta Beta = -0.6399 (WT Mean=0.6780 -> Mut Mean=0.0381)
+
+--- Transcriptomics (RNA Expression differences in treated patients) ---
+  Top 10 Upregulated Genes in ATRX-Mutant:
+    IGKC: Log2FC = 8.05
+    IGHG1: Log2FC = 7.33
+    IGLC3: Log2FC = 7.13
+    IGLC1: Log2FC = 5.89
+    IGLC2: Log2FC = 5.68
+    IGHA1: Log2FC = 5.65
+    AC005559.2: Log2FC = 5.43
+    IGHG3: Log2FC = 5.38
+    RPS4Y1: Log2FC = 5.11
+    AP003068.9: Log2FC = 4.92
+  Top 10 Downregulated Genes in ATRX-Mutant:
+    RPPH1: Log2FC = -12.78
+    HIST1H4C: Log2FC = -8.35
+    RN7SL2: Log2FC = -8.32
+    RN7SL3: Log2FC = -8.27
+    RN7SL1: Log2FC = -8.24
+    MTND1P23: Log2FC = -7.08
+    SCARNA2: Log2FC = -6.91
+    HIST1H4E: Log2FC = -6.46
+    HIST1H2BC: Log2FC = -5.81
+    RMRP: Log2FC = -5.60
+
+  Expression differences in key markers:
+    MGMT: Log2FC = 1.88 (WT Mean=3.27 -> Mut Mean=14.75)
+    STAT3: Log2FC = -1.17 (WT Mean=42.30 -> Mut Mean=18.23)
+    EGFR: Log2FC = -0.64 (WT Mean=7.88 -> Mut Mean=4.71)
+    GRIA2: Log2FC = -1.04 (WT Mean=40.50 -> Mut Mean=19.25)
+    NLGN3: Log2FC = -0.38 (WT Mean=32.30 -> Mut Mean=24.64)
+    CD44: Log2FC = -1.67 (WT Mean=43.84 -> Mut Mean=13.09)
+    OLIG2: Log2FC = 0.09 (WT Mean=158.26 -> Mut Mean=168.58)
+    SOX2: Log2FC = -0.29 (WT Mean=177.13 -> Mut Mean=145.18)
+    CHI3L1: Log2FC = 2.55 (WT Mean=27.96 -> Mut Mean=168.15)
+    VIM: Log2FC = 0.87 (WT Mean=353.51 -> Mut Mean=644.97)
+
+--- Proteomics (Protein Abundance differences in treated patients) ---
+    MGMT Protein: WT Mean=28.53 -> Mut Mean=27.45 (Delta=-1.09)
+    STAT3 Protein: WT Mean=87.61 -> Mut Mean=64.18 (Delta=-23.43)
+    EGFR Protein: WT Mean=46.24 -> Mut Mean=52.77 (Delta=6.54)
+    GRIA2 Protein: WT Mean=89.36 -> Mut Mean=166.71 (Delta=77.35)
+    NLGN3 Protein: WT Mean=133.24 -> Mut Mean=205.49 (Delta=72.25)
+    CD44 Protein: WT Mean=389.43 -> Mut Mean=79.49 (Delta=-309.95)
+    OLIG2 Protein: WT Mean=16.91 -> Mut Mean=25.94 (Delta=9.03)
+    SOX2 Protein: WT Mean=31.37 -> Mut Mean=31.69 (Delta=0.32)
+    CHI3L1 Protein: WT Mean=121.00 -> Mut Mean=213.22 (Delta=92.22)
+    VIM Protein: WT Mean=8916.90 -> Mut Mean=2277.66 (Delta=-6639.24)
+
+--- Phosphoproteomics (Active Signaling differences in treated patients) ---
+    STAT3_Y705 Phospho: WT Mean=492597.58 -> Mut Mean=361745.69 (Delta=-130851.89)
+    STAT3_S727 Phospho: WT Mean=303399.86 -> Mut Mean=59890.65 (Delta=-243509.21)
+    EGFR_S991 Phospho: WT Mean=445458.08 -> Mut Mean=270771.21 (Delta=-174686.87)
+    EGFR_T693 Phospho: WT Mean=1227034.56 -> Mut Mean=552741.62 (Delta=-674292.94)
+    AKT1_S129 Phospho: WT Mean=549229.71 -> Mut Mean=562505.31 (Delta=13275.60)
+    MAPK1_Y187 Phospho: WT Mean=3174373.01 -> Mut Mean=1004214.84 (Delta=-2170158.17)

@@ -1,0 +1,664 @@
+{
+  "summary": {
+    "token": "MjAyNjA3MDYwNjA0MTRfMjE1MzY%3D",
+    "projection": false,
+    "interactors": false,
+    "type": "OVERREPRESENTATION",
+    "sampleName": "",
+    "text": true,
+    "includeDisease": true
+  },
+  "expression": {
+    "columnNames": []
+  },
+  "identifiersNotFound": 3,
+  "pathwaysFound": 20,
+  "pathways": [
+    {
+      "stId": "R-HSA-428359",
+      "dbId": 428359,
+      "name": "Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 5,
+        "ratio": 0.0007999507722601686,
+        "pValue": 8.491061409543477e-09,
+        "fdr": 3.082255291664282e-06,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.00018646280067126608
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9927432",
+      "dbId": 9927432,
+      "name": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 36,
+        "found": 4,
+        "ratio": 0.0022152482924127745,
+        "pValue": 3.669279949825022e-05,
+        "fdr": 0.006641396709183289,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-452723",
+      "dbId": 452723,
+      "name": "Transcriptional regulation of pluripotent stem cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 45,
+        "found": 4,
+        "ratio": 0.0027690603655159685,
+        "pValue": 8.655273366942051e-05,
+        "fdr": 0.010472880773999882,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 30,
+        "ratio": 0.002175399341164771
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8986944",
+      "dbId": 8986944,
+      "name": "Transcriptional Regulation by MECP2",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 100,
+        "found": 5,
+        "ratio": 0.006153467478924374,
+        "pValue": 0.00016240423977498253,
+        "fdr": 0.011914694975374562,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 77,
+        "found": 6,
+        "ratio": 0.004785878550562496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-2892247",
+      "dbId": 2892247,
+      "name": "POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 3,
+        "ratio": 0.0012922281705741185,
+        "pValue": 0.0001770402299785534,
+        "fdr": 0.011914694975374562,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 16,
+        "ratio": 0.0009944682702467524
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-6804754",
+      "dbId": 6804754,
+      "name": "Regulation of TP53 Expression",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.00024613869915697496,
+        "pValue": 0.00019857824958957604,
+        "fdr": 0.011914694975374562,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 5,
+        "ratio": 0.00031077133445211015
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9818025",
+      "dbId": 9818025,
+      "name": "NFE2L2 regulating TCA cycle genes",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.00043074272352470615,
+        "pValue": 0.0006021996435644494,
+        "fdr": 0.03071218182178692,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.0002486170675616881
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-9008059",
+      "dbId": 10565617,
+      "name": "Interleukin-37 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 2,
+        "ratio": 0.0004818348270212971,
+        "pValue": 0.0007514857712855871,
+        "fdr": 0.04082122490713269,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00024372410431391665
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9924644",
+      "dbId": 9924644,
+      "name": "Developmental Lineages of the Mammary Gland",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 81,
+        "found": 4,
+        "ratio": 0.0049843086579287425,
+        "pValue": 0.0007920813123254433,
+        "fdr": 0.03564365905464495,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 5,
+        "ratio": 0.0004972341351233762
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-8875791",
+      "dbId": 10565533,
+      "name": "MET activates STAT3",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 2,
+        "ratio": 0.0005782017924255566,
+        "pValue": 0.0010766094703326123,
+        "fdr": 0.04082122490713269,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00024372410431391665
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-8849474",
+      "dbId": 10565425,
+      "name": "PTK6 Activates STAT3",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.0006745687578298159,
+        "pValue": 0.0014579008895404533,
+        "fdr": 0.04082122490713269,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 2,
+        "ratio": 0.0006093102607847916
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-6783783",
+      "dbId": 10564349,
+      "name": "Interleukin-10 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 2,
+        "ratio": 0.0008673026886383347,
+        "pValue": 0.0023854661175459757,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 5,
+        "ratio": 0.0012186205215695832
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-9701898",
+      "dbId": 10565827,
+      "name": "STAT3 nuclear events downstream of ALK signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 10,
+        "found": 2,
+        "ratio": 0.0009636696540425942,
+        "pValue": 0.0029300047468168167,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00024372410431391665
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-9020933",
+      "dbId": 10564327,
+      "name": "Interleukin-23 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 2,
+        "ratio": 0.0011564035848511131,
+        "pValue": 0.004176330645453974,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 5,
+        "ratio": 0.0009748964172556666
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-8985947",
+      "dbId": 10564389,
+      "name": "Interleukin-9 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 2,
+        "ratio": 0.0011564035848511131,
+        "pValue": 0.004176330645453974,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 5,
+        "ratio": 0.001584206678040458
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-9020958",
+      "dbId": 10565607,
+      "name": "Interleukin-21 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 2,
+        "ratio": 0.0012527705502553724,
+        "pValue": 0.0048764419634720335,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 2,
+        "ratio": 0.0006093102607847916
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-1059683",
+      "dbId": 10564553,
+      "name": "Interleukin-6 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 2,
+        "ratio": 0.0013491375156596318,
+        "pValue": 0.0056267509994328835,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 6,
+        "ratio": 0.002315378990982208
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-9020956",
+      "dbId": 10564333,
+      "name": "Interleukin-27 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 2,
+        "ratio": 0.0013491375156596318,
+        "pValue": 0.0056267509994328835,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 5,
+        "ratio": 0.0019497928345113332
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-8983432",
+      "dbId": 10565599,
+      "name": "Interleukin-15 signaling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 2,
+        "ratio": 0.0014455044810638912,
+        "pValue": 0.006426443791424652,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 9,
+        "found": 5,
+        "ratio": 0.0010967584694126249
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-SSC-8984722",
+      "dbId": 10564337,
+      "name": "Interleukin-35 Signalling",
+      "species": {
+        "dbId": 49633,
+        "taxId": "9823",
+        "name": "Sus scrofa"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 2,
+        "ratio": 0.0014455044810638912,
+        "pValue": 0.006426443791424652,
+        "fdr": 0.044985106539972564,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 3,
+        "ratio": 0.002924689251767
+      },
+      "inDisease": false
+    }
+  ],
+  "resourceSummary": [
+    {
+      "resource": "TOTAL",
+      "pathways": 1007,
+      "filtered": 1007
+    },
+    {
+      "resource": "UNIPROT",
+      "pathways": 1005,
+      "filtered": 1005
+    },
+    {
+      "resource": "ENSEMBL",
+      "pathways": 53,
+      "filtered": 53
+    }
+  ],
+  "speciesSummary": [
+    {
+      "dbId": 48887,
+      "taxId": "9606",
+      "name": "Homo sapiens",
+      "pathways": 339,
+      "filtered": 339
+    },
+    {
+      "dbId": 48892,
+      "taxId": "10090",
+      "name": "Mus musculus",
+      "pathways": 111,
+      "filtered": 111
+    },
+    {
+      "dbId": 49646,
+      "taxId": "9615",
+      "name": "Canis familiaris",
+      "pathways": 104,
+      "filtered": 104
+    },
+    {
+      "dbId": 48895,
+      "taxId": "10116",
+      "name": "Rattus norvegicus",
+      "pathways": 87,
+      "filtered": 87
+    },
+    {
+      "dbId": 49633,
+      "taxId": "9823",
+      "name": "Sus scrofa",
+      "pathways": 85,
+      "filtered": 85
+    },
+    {
+      "dbId": 49591,
+      "taxId": "9031",
+      "name": "Gallus gallus",
+      "pathways": 78,
+      "filtered": 78
+    },
+    {
+      "dbId": 48898,
+      "taxId": "9913",
+      "name": "Bos taurus",
+      "pathways": 74,
+      "filtered": 74
+    },
+    {
+      "dbId": 205621,
+      "taxId": "8364",
+      "name": "Xenopus tropicalis",
+      "pathways": 70,
+      "filtered": 70
+    },
+    {
+      "dbId": 56210,
+      "taxId": "7227",
+      "name": "Drosophila melanogaster",
+      "pathways": 29,
+      "filtered": 29
+    },
+    {
+      "dbId": 170941,
+      "taxId": "44689",
+      "name": "Dictyostelium discoideum",
+      "pathways": 23,
+      "filtered": 23
+    },
+    {
+      "dbId": 68323,
+      "taxId": "7955",
+      "name": "Danio rerio",
+      "pathways": 4,
+      "filtered": 4
+    },
+    {
+      "dbId": 68322,
+      "taxId": "4932",
+      "name": "Saccharomyces cerevisiae",
+      "pathways": 3,
+      "filtered": 3
+    }
+  ],
+  "warnings": [
+    "Missing header. Using a default one."
+  ]
+}

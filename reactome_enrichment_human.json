@@ -1,0 +1,1208 @@
+{
+  "summary": {
+    "token": "MjAyNjA3MDYwNjA0MzlfMjE1Mzc%3D",
+    "projection": true,
+    "interactors": false,
+    "type": "OVERREPRESENTATION",
+    "sampleName": "",
+    "text": true,
+    "includeDisease": true
+  },
+  "expression": {
+    "columnNames": []
+  },
+  "identifiersNotFound": 3,
+  "pathwaysFound": 43,
+  "pathways": [
+    {
+      "stId": "R-HSA-428359",
+      "dbId": 428359,
+      "name": "Insulin-like Growth Factor-2 mRNA Binding Proteins (IGF2BPs/IMPs/VICKZs) bind RNA",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 5,
+        "ratio": 0.0007999507722601686,
+        "pValue": 7.630851506235103e-11,
+        "fdr": 2.792891651282048e-08,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.00018646280067126608
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9927432",
+      "dbId": 9927432,
+      "name": "Developmental Lineage of Mammary Gland Myoepithelial Cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 36,
+        "found": 4,
+        "ratio": 0.0022152482924127745,
+        "pValue": 9.360707495797982e-07,
+        "fdr": 0.00017130094717310307,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8986944",
+      "dbId": 8986944,
+      "name": "Transcriptional Regulation by MECP2",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 100,
+        "found": 5,
+        "ratio": 0.006153467478924374,
+        "pValue": 1.8137276355245646e-06,
+        "fdr": 0.00020531094323239518,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 77,
+        "found": 6,
+        "ratio": 0.004785878550562496
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-452723",
+      "dbId": 452723,
+      "name": "Transcriptional regulation of pluripotent stem cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 45,
+        "found": 4,
+        "ratio": 0.0027690603655159685,
+        "pValue": 2.256164211345002e-06,
+        "fdr": 0.00020531094323239518,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 30,
+        "ratio": 0.002175399341164771
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-2892247",
+      "dbId": 2892247,
+      "name": "POU5F1 (OCT4), SOX2, NANOG activate genes related to proliferation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 3,
+        "ratio": 0.0012922281705741185,
+        "pValue": 1.1435905517553913e-05,
+        "fdr": 0.0008348211027814356,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 16,
+        "found": 16,
+        "ratio": 0.0009944682702467524
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9924644",
+      "dbId": 9924644,
+      "name": "Developmental Lineages of the Mammary Gland",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 81,
+        "found": 4,
+        "ratio": 0.0049843086579287425,
+        "pValue": 2.2498499130385596e-05,
+        "fdr": 0.0013724084469535214,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 8,
+        "found": 5,
+        "ratio": 0.0004972341351233762
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-6804754",
+      "dbId": 6804754,
+      "name": "Regulation of TP53 Expression",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.00024613869915697496,
+        "pValue": 3.182621742714442e-05,
+        "fdr": 0.0016549633062115099,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 5,
+        "found": 5,
+        "ratio": 0.00031077133445211015
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-6785807",
+      "dbId": 6785807,
+      "name": "Interleukin-4 and Interleukin-13 signaling",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 211,
+        "found": 5,
+        "ratio": 0.012983816380530429,
+        "pValue": 6.46633743500713e-05,
+        "fdr": 0.0029098518457532085,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 47,
+        "found": 19,
+        "ratio": 0.002921250543849835
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9818025",
+      "dbId": 9818025,
+      "name": "NFE2L2 regulating TCA cycle genes",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 7,
+        "found": 2,
+        "ratio": 0.00043074272352470615,
+        "pValue": 9.709687533865363e-05,
+        "fdr": 0.0038838750135461453,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 4,
+        "found": 2,
+        "ratio": 0.0002486170675616881
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9734779",
+      "dbId": 9734779,
+      "name": "Developmental Cell Lineages of the Integumentary System",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 122,
+        "found": 4,
+        "ratio": 0.007507230324287736,
+        "pValue": 0.00010920883683074312,
+        "fdr": 0.003931518125906752,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 12,
+        "found": 5,
+        "ratio": 0.0007458512026850643
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-5628897",
+      "dbId": 5628897,
+      "name": "TP53 Regulates Metabolic Genes",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 128,
+        "found": 4,
+        "ratio": 0.007876438373023199,
+        "pValue": 0.0001312027669339022,
+        "fdr": 0.004329691308818773,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 34,
+        "found": 16,
+        "ratio": 0.002113245074274349
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-6807070",
+      "dbId": 6807070,
+      "name": "PTEN Regulation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 156,
+        "found": 4,
+        "ratio": 0.009599409267122024,
+        "pValue": 0.0002781421700527309,
+        "fdr": 0.008344265101581927,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 56,
+        "found": 42,
+        "ratio": 0.0034806389458636334
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8943724",
+      "dbId": 8943724,
+      "name": "Regulation of PTEN gene transcription",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 68,
+        "found": 3,
+        "ratio": 0.004184357885668575,
+        "pValue": 0.0003638598963129347,
+        "fdr": 0.009908353099090661,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 13,
+        "ratio": 0.0009323140033563305
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9832991",
+      "dbId": 9832991,
+      "name": "Formation of the posterior neural plate",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 2,
+        "ratio": 0.0008614854470494123,
+        "pValue": 0.00038494948611522695,
+        "fdr": 0.009908353099090661,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 6,
+        "found": 4,
+        "ratio": 0.00037292560134253216
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-1257604",
+      "dbId": 1257604,
+      "name": "PIP3 activates AKT signaling",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 315,
+        "found": 5,
+        "ratio": 0.01938342255861178,
+        "pValue": 0.0004128480457954442,
+        "fdr": 0.009908353099090661,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 89,
+        "found": 45,
+        "ratio": 0.005531729753247561
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9823739",
+      "dbId": 9823739,
+      "name": "Formation of the anterior neural plate",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 19,
+        "found": 2,
+        "ratio": 0.001169158820995631,
+        "pValue": 0.0007045284648526939,
+        "fdr": 0.015499626226759267,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 15,
+        "found": 4,
+        "ratio": 0.0009323140033563305
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9006925",
+      "dbId": 9006925,
+      "name": "Intracellular signaling by second messengers",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 363,
+        "found": 5,
+        "ratio": 0.022337086948495476,
+        "pValue": 0.0007829839358294288,
+        "fdr": 0.016311032083280885,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 117,
+        "found": 45,
+        "ratio": 0.007272049226179377
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-212436",
+      "dbId": 212436,
+      "name": "Generic Transcription Pathway",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1574,
+        "found": 10,
+        "ratio": 0.09685557811826964,
+        "pValue": 0.000824871909529068,
+        "fdr": 0.016311032083280885,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 879,
+        "found": 178,
+        "ratio": 0.05463360059668096
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8866910",
+      "dbId": 8866910,
+      "name": "TFAP2 (AP-2) family regulates transcription of growth factors and their receptors",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 21,
+        "found": 2,
+        "ratio": 0.0012922281705741185,
+        "pValue": 0.0008584753728042571,
+        "fdr": 0.016311032083280885,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 18,
+        "found": 2,
+        "ratio": 0.0011187768040275966
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9926550",
+      "dbId": 9926550,
+      "name": "Regulation of MITF-M-dependent genes involved in extracellular matrix, focal adhesion and epithelial-to-mesenchymal transition",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 23,
+        "found": 2,
+        "ratio": 0.001415297520152606,
+        "pValue": 0.0010271717936845004,
+        "fdr": 0.018489092286321007,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 22,
+        "found": 2,
+        "ratio": 0.0013673938715892846
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9754189",
+      "dbId": 9754189,
+      "name": "Germ layer formation at gastrulation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 2,
+        "ratio": 0.0014768321949418497,
+        "pValue": 0.0011170151720207855,
+        "fdr": 0.018989257924353353,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 11,
+        "found": 4,
+        "ratio": 0.0006836969357946423
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-73857",
+      "dbId": 73857,
+      "name": "RNA Polymerase II Transcription",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1678,
+        "found": 10,
+        "ratio": 0.103255184296351,
+        "pValue": 0.001354642690532648,
+        "fdr": 0.02167428304852237,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 939,
+        "found": 178,
+        "ratio": 0.05836285661010628
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9938206",
+      "dbId": 9938206,
+      "name": "Developmental Lineage of Mammary Stem Cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 28,
+        "found": 2,
+        "ratio": 0.0017229708940988246,
+        "pValue": 0.0015126901757755995,
+        "fdr": 0.022690352636633992,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8943723",
+      "dbId": 8943723,
+      "name": "Regulation of PTEN mRNA translation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 29,
+        "found": 2,
+        "ratio": 0.0017845055688880684,
+        "pValue": 0.001620613348230715,
+        "fdr": 0.024309200223460725,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 24,
+        "found": 13,
+        "ratio": 0.0014917024053701287
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9022699",
+      "dbId": 9022699,
+      "name": "MECP2 regulates neuronal receptors and channels",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 32,
+        "found": 2,
+        "ratio": 0.0019691095932557997,
+        "pValue": 0.0019657678589025673,
+        "fdr": 0.026372401356104747,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 2,
+        "ratio": 0.0016160109391509727
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9723907",
+      "dbId": 9723907,
+      "name": "Loss of Function of TP53 in Cancer",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.153467478924374e-05,
+        "pValue": 0.0020286462581619036,
+        "fdr": 0.026372401356104747,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-9723905",
+      "dbId": 9723905,
+      "name": "Loss of function of TP53 in cancer due to loss of tetramerization ability",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.153467478924374e-05,
+        "pValue": 0.0020286462581619036,
+        "fdr": 0.026372401356104747,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-3700989",
+      "dbId": 3700989,
+      "name": "Transcriptional Regulation by TP53",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 487,
+        "found": 5,
+        "ratio": 0.029967386622361702,
+        "pValue": 0.002846371644780965,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 258,
+        "found": 167,
+        "ratio": 0.016035800857728884
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-390471",
+      "dbId": 390471,
+      "name": "Association of TriC/CCT with target proteins during biosynthesis",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 40,
+        "found": 2,
+        "ratio": 0.0024613869915697494,
+        "pValue": 0.003040549013598959,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-5689896",
+      "dbId": 5689896,
+      "name": "Ovarian tumor domain proteases",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 44,
+        "found": 2,
+        "ratio": 0.0027075256907267246,
+        "pValue": 0.0036604863111511232,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 14,
+        "found": 2,
+        "ratio": 0.0008701597364659083
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-74160",
+      "dbId": 74160,
+      "name": "Gene expression (Transcription)",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 1922,
+        "found": 10,
+        "ratio": 0.11826964494492646,
+        "pValue": 0.0037489497819536144,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1139,
+        "found": 178,
+        "ratio": 0.07079370998819069
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-6806003",
+      "dbId": 6806003,
+      "name": "Regulation of TP53 Expression and Degradation",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 46,
+        "found": 2,
+        "ratio": 0.002830595040305212,
+        "pValue": 0.003990710150012733,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 35,
+        "found": 16,
+        "ratio": 0.002175399341164771
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9670621",
+      "dbId": 9670621,
+      "name": "Defective Inhibition of DNA Recombination at Telomere",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012306934957848748,
+        "pValue": 0.0040533015745660705,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-9006821",
+      "dbId": 9006821,
+      "name": "Alternative Lengthening of Telomeres (ALT)",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012306934957848748,
+        "pValue": 0.0040533015745660705,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-9673013",
+      "dbId": 9673013,
+      "name": "Diseases of Telomere Maintenance",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012306934957848748,
+        "pValue": 0.0040533015745660705,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 2,
+        "ratio": 0.00012430853378084405
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-9670613",
+      "dbId": 9670613,
+      "name": "Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012306934957848748,
+        "pValue": 0.0040533015745660705,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-9670615",
+      "dbId": 9670615,
+      "name": "Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 2,
+        "found": 1,
+        "ratio": 0.00012306934957848748,
+        "pValue": 0.0040533015745660705,
+        "fdr": 0.036479714171094635,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-5663202",
+      "dbId": 5663202,
+      "name": "Diseases of signal transduction by growth factor receptors and second messengers",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 536,
+        "found": 5,
+        "ratio": 0.032982585687034646,
+        "pValue": 0.004283615909108418,
+        "fdr": 0.03855254318197576,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 516,
+        "found": 109,
+        "ratio": 0.03207160171545777
+      },
+      "inDisease": true
+    },
+    {
+      "stId": "R-HSA-8853884",
+      "dbId": 8853884,
+      "name": "Transcriptional Regulation by VENTX",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 48,
+        "found": 2,
+        "ratio": 0.0029536643898836995,
+        "pValue": 0.004334293749593265,
+        "fdr": 0.038639858641132285,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 13,
+        "found": 2,
+        "ratio": 0.0008080054695754863
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9927418",
+      "dbId": 9927418,
+      "name": "Developmental Lineage of Mammary Gland Luminal Epithelial Cells",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 50,
+        "found": 2,
+        "ratio": 0.003076733739462187,
+        "pValue": 0.004691130092943752,
+        "fdr": 0.038639858641132285,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 2,
+        "ratio": 0.00018646280067126608
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-9734767",
+      "dbId": 9734767,
+      "name": "Developmental Cell Lineages",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": false,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 340,
+        "found": 4,
+        "ratio": 0.02092178942834287,
+        "pValue": 0.004829982330141536,
+        "fdr": 0.038639858641132285,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 26,
+        "found": 5,
+        "ratio": 0.0016160109391509727
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-8864260",
+      "dbId": 8864260,
+      "name": "Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 52,
+        "found": 2,
+        "ratio": 0.0031998030890406743,
+        "pValue": 0.005061112765668119,
+        "fdr": 0.04048890212534495,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 44,
+        "found": 2,
+        "ratio": 0.0027347877431785693
+      },
+      "inDisease": false
+    },
+    {
+      "stId": "R-HSA-5674404",
+      "dbId": 5674404,
+      "name": "PTEN Loss of Function in Cancer",
+      "species": {
+        "dbId": 48887,
+        "taxId": "9606",
+        "name": "Homo sapiens"
+      },
+      "llp": true,
+      "entities": {
+        "resource": "TOTAL",
+        "total": 3,
+        "found": 1,
+        "ratio": 0.00018460402436773122,
+        "pValue": 0.006073973555670409,
+        "fdr": 0.04859178844536327,
+        "exp": []
+      },
+      "reactions": {
+        "resource": "TOTAL",
+        "total": 1,
+        "found": 1,
+        "ratio": 6.215426689042202e-05
+      },
+      "inDisease": true
+    }
+  ],
+  "resourceSummary": [
+    {
+      "resource": "TOTAL",
+      "pathways": 342,
+      "filtered": 342
+    },
+    {
+      "resource": "UNIPROT",
+      "pathways": 340,
+      "filtered": 340
+    },
+    {
+      "resource": "ENSEMBL",
+      "pathways": 53,
+      "filtered": 53
+    }
+  ],
+  "speciesSummary": [
+    {
+      "dbId": 48887,
+      "taxId": "9606",
+      "name": "Homo sapiens",
+      "pathways": 342,
+      "filtered": 342
+    }
+  ],
+  "warnings": [
+    "Missing header. Using a default one."
+  ]
+}

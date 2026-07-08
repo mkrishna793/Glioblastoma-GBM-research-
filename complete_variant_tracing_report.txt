@@ -1,0 +1,419 @@
+================================================================================
+COMPLETE VARIANT-TO-PROTEOME TRACING REPORT
+Tracing each mutated gene through: Genomics -> Epigenomics -> Transcriptomics -> Proteomics
+================================================================================
+
+WES Cohort: 286 patients
+IDH-A Cohort: 35 patients
+Full Multi-Omic Overlap: 11 patients
+Overlap Patient IDs: CGGA_P137, CGGA_P151, CGGA_P153, CGGA_P173, CGGA_P179, CGGA_P271, CGGA_P401, CGGA_P411, CGGA_P568, CGGA_P633, CGGA_P87
+
+================================================================================
+TRACING GENE: IDH1
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 134 patients
+  Wildtype: 152 patients
+  Mutation Rate: 46.9%
+  Mutated: Mean OS = 1477 days, Death Rate = 36.3%
+  Wildtype: Mean OS = 1112 days, Death Rate = 67.6%
+
+  Treatment Stratification for IDH1:
+    Mutated + TMZ Treated: N=75, Mean OS=1302 days, Death Rate=40.0%
+    Mutated + TMZ Untreated: N=43, Mean OS=1931 days, Death Rate=25.6%
+    Wildtype + TMZ Treated: N=106, Mean OS=1040 days, Death Rate=67.9%
+    Wildtype + TMZ Untreated: N=29, Mean OS=1568 days, Death Rate=58.6%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=11, WT=0)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=13, WT=0)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=13, WT=0)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=13, WT=0)
+
+================================================================================
+TRACING GENE: TP53
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 131 patients
+  Wildtype: 155 patients
+  Mutation Rate: 45.8%
+  Mutated: Mean OS = 1092 days, Death Rate = 64.2%
+  Wildtype: Mean OS = 1438 days, Death Rate = 43.8%
+
+  Treatment Stratification for TP53:
+    Mutated + TMZ Treated: N=84, Mean OS=995 days, Death Rate=66.7%
+    Mutated + TMZ Untreated: N=29, Mean OS=1560 days, Death Rate=48.3%
+    Wildtype + TMZ Treated: N=97, Mean OS=1281 days, Death Rate=47.4%
+    Wildtype + TMZ Untreated: N=43, Mean OS=1937 days, Death Rate=32.6%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=11, WT=0)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=13, WT=0)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=13, WT=0)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=13, WT=0)
+
+================================================================================
+TRACING GENE: ATRX
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 85 patients
+  Wildtype: 201 patients
+  Mutation Rate: 29.7%
+  Mutated: Mean OS = 1202 days, Death Rate = 61.3%
+  Wildtype: Mean OS = 1314 days, Death Rate = 49.7%
+
+  Treatment Stratification for ATRX:
+    Mutated + TMZ Treated: N=48, Mean OS=1136 days, Death Rate=64.6%
+    Mutated + TMZ Untreated: N=22, Mean OS=1540 days, Death Rate=45.5%
+    Wildtype + TMZ Treated: N=133, Mean OS=1153 days, Death Rate=53.4%
+    Wildtype + TMZ Untreated: N=50, Mean OS=1893 days, Death Rate=36.0%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Comparing methylation: 7 mutated vs 4 wildtype patients
+  Top 10 Hypermethylated Probes (higher in ATRX-mutated):
+    rs798149: Delta Beta = 0.6747
+    cg07130150: Delta Beta = 0.6336
+    cg07646083: Delta Beta = 0.6235
+    cg16234978: Delta Beta = 0.6143
+    cg03965172: Delta Beta = 0.5816
+    cg00209612: Delta Beta = 0.5745
+    cg00814598: Delta Beta = 0.5654
+    cg08603678: Delta Beta = 0.5561
+    cg20378070: Delta Beta = 0.5513
+    cg15506477: Delta Beta = 0.5485
+  Top 10 Hypomethylated Probes (lower in ATRX-mutated):
+    cg04302300: Delta Beta = -0.5593
+    cg21130926: Delta Beta = -0.5437
+    cg06683092: Delta Beta = -0.5273
+    cg08816590: Delta Beta = -0.5186
+    cg15843567: Delta Beta = -0.5161
+    cg09084244: Delta Beta = -0.5129
+    cg16678169: Delta Beta = -0.4962
+    cg02006792: Delta Beta = -0.4840
+    cg15200096: Delta Beta = -0.4764
+    cg14408831: Delta Beta = -0.4754
+  MGMT-related Methylation in ATRX-mutated vs wildtype:
+    cg12434587: Mutated=0.2394, Wildtype=0.4274, Delta=-0.1880
+    cg12981137: Mutated=0.4043, Wildtype=0.5858, Delta=-0.1815
+    cg15765353: Mutated=0.8077, Wildtype=0.8970, Delta=-0.0892
+    cg21862320: Mutated=0.9349, Wildtype=0.9528, Delta=-0.0179
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Comparing RNA: 9 mutated vs 4 wildtype patients
+  Top 15 Upregulated Genes in ATRX-mutated:
+    IGKC: Log2FC = 6.55
+    IGHG1: Log2FC = 5.81
+    IGLC3: Log2FC = 5.80
+    RPS4Y1: Log2FC = 5.62
+    IGLC1: Log2FC = 4.43
+    IGHA1: Log2FC = 4.30
+    IGLC2: Log2FC = 4.19
+    AC005559.2: Log2FC = 3.99
+    IGHG3: Log2FC = 3.96
+    SLC14A1: Log2FC = 3.88
+    SELL: Log2FC = 3.82
+    AP003068.9: Log2FC = 3.73
+    IGHG2: Log2FC = 3.61
+    LINC01088: Log2FC = 3.56
+    RP1-20B21.4: Log2FC = 3.53
+  Top 15 Downregulated Genes in ATRX-mutated:
+    MTND1P23: Log2FC = -7.86
+    VGF: Log2FC = -4.27
+    RP11-599B13.6: Log2FC = -4.07
+    NOV: Log2FC = -4.03
+    HIST4H4: Log2FC = -3.27
+    PCDHGA11: Log2FC = -3.27
+    HIST2H3D: Log2FC = -2.98
+    HIST1H2BG: Log2FC = -2.88
+    RN7SL3: Log2FC = -2.81
+    OPALIN: Log2FC = -2.75
+    RMRP: Log2FC = -2.73
+    HIST3H2BB: Log2FC = -2.61
+    HIST1H3E: Log2FC = -2.61
+    RIMS1: Log2FC = -2.59
+    NPTX1: Log2FC = -2.43
+  Target Gene Expression in ATRX-mutated vs wildtype:
+    MGMT: Log2FC = 0.90 (NO CHANGE)
+    STAT3: Log2FC = -0.30 (NO CHANGE)
+    EGFR: Log2FC = 1.56 (UP)
+    GRIA2: Log2FC = 0.59 (NO CHANGE)
+    NLGN3: Log2FC = -0.44 (NO CHANGE)
+    CD44: Log2FC = 0.99 (NO CHANGE)
+    OLIG2: Log2FC = 0.42 (NO CHANGE)
+    SOX2: Log2FC = 0.45 (NO CHANGE)
+    CHI3L1: Log2FC = 1.98 (UP)
+    VIM: Log2FC = 0.78 (NO CHANGE)
+  ATRX itself: Tumor Mean = 4.74, Normal Brain Mean = 24.23
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Comparing Proteomics: 9 mutated vs 4 wildtype patients
+  Target Protein Abundance in ATRX-mutated vs wildtype:
+    STAT3: Mutated Mean=77.09, WT Mean=87.61, p=0.8252 (not significant)
+    EGFR: Mutated Mean=133.52, WT Mean=46.24, p=0.0503 (not significant)
+    PTEN: Mutated Mean=13.59, WT Mean=13.66, p=1.0000 (not significant)
+    IDH1: Mutated Mean=662.54, WT Mean=580.26, p=0.4140 (not significant)
+    GRIA2: Mutated Mean=135.86, WT Mean=89.36, p=0.0755 (not significant)
+    CD44: Mutated Mean=294.55, WT Mean=389.43, p=0.8252 (not significant)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Comparing Phosphoproteomics: 9 mutated vs 4 wildtype patients
+  Target Phosphorylation Sites in ATRX-mutated vs wildtype:
+    STAT3_Y705: Mutated Mean=577171.19, WT Mean=492597.58, p=0.7143 (not significant)
+    STAT3_S727: Mutated Mean=72174.74, WT Mean=303399.86, p=0.0667 (not significant)
+    EGFR_S991: Mutated Mean=925613.99, WT Mean=445458.08, p=0.2601 (not significant)
+    EGFR_T693: Mutated Mean=1439241.17, WT Mean=1227034.56, p=0.6667 (not significant)
+    AKT1_S129: Mutated Mean=432791.69, WT Mean=549229.71, p=0.8081 (not significant)
+    MAPK1_Y187: Mutated Mean=6492135.03, WT Mean=3174373.01, p=0.4970 (not significant)
+    MAPK1_T185: Mutated Mean=5621261.87, WT Mean=10572447.80, p=0.4970 (not significant)
+
+================================================================================
+TRACING GENE: PTEN
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 19 patients
+  Wildtype: 267 patients
+  Mutation Rate: 6.6%
+  Mutated: Mean OS = 479 days, Death Rate = 89.5%
+  Wildtype: Mean OS = 1344 days, Death Rate = 50.2%
+
+  Treatment Stratification for PTEN:
+    Mutated + TMZ Treated: N=18, Mean OS=501 days, Death Rate=88.9%
+    Wildtype + TMZ Treated: N=163, Mean OS=1220 days, Death Rate=52.8%
+    Wildtype + TMZ Untreated: N=71, Mean OS=1809 days, Death Rate=38.0%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=0, WT=11)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=0, WT=13)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=0, WT=13)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=0, WT=13)
+
+================================================================================
+TRACING GENE: EGFR
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 11 patients
+  Wildtype: 275 patients
+  Mutation Rate: 3.8%
+  Mutated: Mean OS = 449 days, Death Rate = 81.8%
+  Wildtype: Mean OS = 1318 days, Death Rate = 51.8%
+
+  Treatment Stratification for EGFR:
+    Mutated + TMZ Treated: N=9, Mean OS=502 days, Death Rate=77.8%
+    Wildtype + TMZ Treated: N=172, Mean OS=1182 days, Death Rate=55.2%
+    Wildtype + TMZ Untreated: N=71, Mean OS=1810 days, Death Rate=38.0%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=0, WT=11)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=0, WT=13)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=0, WT=13)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=0, WT=13)
+
+================================================================================
+TRACING GENE: CIC
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 41 patients
+  Wildtype: 245 patients
+  Mutation Rate: 14.3%
+  Mutated: Mean OS = 1880 days, Death Rate = 14.6%
+  Wildtype: Mean OS = 1173 days, Death Rate = 60.0%
+
+  Treatment Stratification for CIC:
+    Mutated + TMZ Treated: N=24, Mean OS=1505 days, Death Rate=12.5%
+    Mutated + TMZ Untreated: N=15, Mean OS=2679 days, Death Rate=13.3%
+    Wildtype + TMZ Treated: N=157, Mean OS=1094 days, Death Rate=63.1%
+    Wildtype + TMZ Untreated: N=57, Mean OS=1550 days, Death Rate=45.6%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=0, WT=11)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=0, WT=13)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=0, WT=13)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=0, WT=13)
+
+================================================================================
+TRACING GENE: NF1
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 20 patients
+  Wildtype: 266 patients
+  Mutation Rate: 7.0%
+  Mutated: Mean OS = 838 days, Death Rate = 73.7%
+  Wildtype: Mean OS = 1316 days, Death Rate = 51.4%
+
+  Treatment Stratification for NF1:
+    Mutated + TMZ Treated: N=16, Mean OS=600 days, Death Rate=81.2%
+    Wildtype + TMZ Treated: N=165, Mean OS=1201 days, Death Rate=53.9%
+    Wildtype + TMZ Untreated: N=70, Mean OS=1757 days, Death Rate=40.0%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=1, WT=10)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=1, WT=12)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=1, WT=12)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=1, WT=12)
+
+================================================================================
+TRACING GENE: NOTCH1
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 24 patients
+  Wildtype: 262 patients
+  Mutation Rate: 8.4%
+  Mutated: Mean OS = 1802 days, Death Rate = 20.8%
+  Wildtype: Mean OS = 1230 days, Death Rate = 56.2%
+
+  Treatment Stratification for NOTCH1:
+    Mutated + TMZ Treated: N=17, Mean OS=1726 days, Death Rate=11.8%
+    Mutated + TMZ Untreated: N=7, Mean OS=1987 days, Death Rate=42.9%
+    Wildtype + TMZ Treated: N=164, Mean OS=1088 days, Death Rate=61.0%
+    Wildtype + TMZ Untreated: N=65, Mean OS=1763 days, Death Rate=38.5%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=1, WT=10)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=1, WT=12)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=1, WT=12)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=1, WT=12)
+
+================================================================================
+TRACING GENE: PIK3CA
+================================================================================
+
+--- LAYER 1: GENOMICS (WES 286 Cohort) ---
+  Mutated: 17 patients
+  Wildtype: 269 patients
+  Mutation Rate: 5.9%
+  Mutated: Mean OS = 999 days, Death Rate = 64.7%
+  Wildtype: Mean OS = 1301 days, Death Rate = 52.2%
+
+  Treatment Stratification for PIK3CA:
+    Mutated + TMZ Treated: N=15, Mean OS=1072 days, Death Rate=60.0%
+    Wildtype + TMZ Treated: N=166, Mean OS=1155 days, Death Rate=56.0%
+    Wildtype + TMZ Untreated: N=71, Mean OS=1798 days, Death Rate=38.0%
+
+--- LAYER 2: EPIGENOMICS (DNA Methylation) ---
+  Insufficient overlap for methylation comparison (Mut=0, WT=11)
+
+--- LAYER 3: TRANSCRIPTOMICS (RNA-Seq) ---
+  Insufficient overlap for RNA comparison (Mut=0, WT=13)
+
+--- LAYER 4: PROTEOMICS (Protein Abundance) ---
+  Insufficient overlap for proteomics comparison (Mut=0, WT=13)
+
+--- LAYER 5: PHOSPHOPROTEOMICS (Active Protein Switches) ---
+  Insufficient overlap for phosphoproteomics comparison (Mut=0, WT=13)
+
+
+================================================================================
+TREATMENT EFFECT ANALYSIS
+Comparing TMZ-Treated vs Untreated across all omic layers
+================================================================================
+TMZ Treated: 185 patients
+TMZ Untreated: 76 patients
+
+--- RNA Expression: TMZ Treated (8) vs Untreated (4) ---
+  MGMT: Log2FC = 1.24 (UP in Treated)
+  STAT3: Log2FC = -0.33 (NO CHANGE)
+  EGFR: Log2FC = -2.05 (DOWN in Treated)
+  GRIA2: Log2FC = -1.69 (DOWN in Treated)
+  NLGN3: Log2FC = 0.23 (NO CHANGE)
+  CD44: Log2FC = -0.75 (DOWN in Treated)
+  OLIG2: Log2FC = 0.20 (NO CHANGE)
+  SOX2: Log2FC = -0.25 (NO CHANGE)
+  CHI3L1: Log2FC = 2.80 (UP in Treated)
+  VIM: Log2FC = 0.85 (UP in Treated)
+  PTEN: Log2FC = -0.07 (NO CHANGE)
+  TP53: Log2FC = 2.11 (UP in Treated)
+  ATRX: Log2FC = -0.60 (DOWN in Treated)
+
+--- Methylation: TMZ Treated (7) vs Untreated (3) ---
+  Top 10 probes with higher methylation in Treated:
+    cg05349513: Delta Beta = 0.6891
+    cg16133033: Delta Beta = 0.6510
+    cg04302300: Delta Beta = 0.6313
+    cg03505772: Delta Beta = 0.6204
+    cg24937727: Delta Beta = 0.6052
+    cg26920673: Delta Beta = 0.5864
+    cg09469554: Delta Beta = 0.5597
+    cg08632164: Delta Beta = 0.5569
+    cg23698271: Delta Beta = 0.5551
+    cg19975301: Delta Beta = 0.5527
+  Top 10 probes with lower methylation in Treated:
+    cg12256538: Delta Beta = -0.7456
+    cg08658244: Delta Beta = -0.7373
+    cg24823308: Delta Beta = -0.7146
+    cg16241932: Delta Beta = -0.7122
+    cg19536652: Delta Beta = -0.7098
+    cg16011559: Delta Beta = -0.7014
+    cg09907758: Delta Beta = -0.6917
+    cg11485704: Delta Beta = -0.6847
+    cg06977036: Delta Beta = -0.6839
+    cg13343565: Delta Beta = -0.6792
+
+--- Proteomics: TMZ Treated (8) vs Untreated (4) ---
+  STAT3: Treated Mean=76.07, Untreated Mean=88.72, p=0.1535 (not significant)
+  EGFR: Treated Mean=60.76, Untreated Mean=178.23, p=0.0081 (SIGNIFICANT)
+  PTEN: Treated Mean=13.80, Untreated Mean=13.36, p=1.0000 (not significant)
+  IDH1: Treated Mean=590.49, Untreated Mean=734.41, p=0.2828 (not significant)
+  GRIA2: Treated Mean=120.52, Untreated Mean=130.50, p=0.6828 (not significant)
+  OLIG2: Treated Mean=22.93, Untreated Mean=12.31, p=0.2000 (not significant)
+  CD44: Treated Mean=247.87, Untreated Mean=408.44, p=0.1091 (not significant)
+
+
+================================================================================
+CO-MUTATION PATTERNS
+Which mutations tend to occur together?
+================================================================================
+  IDH1 + TP53: Co-mutated in 71 patients (24.8%)
+  ATRX + IDH1: Co-mutated in 53 patients (18.5%)
+  ATRX + TP53: Co-mutated in 75 patients (26.2%)
+  PTEN + TP53: Co-mutated in 9 patients (3.1%)
+  CIC + IDH1: Co-mutated in 34 patients (11.9%)

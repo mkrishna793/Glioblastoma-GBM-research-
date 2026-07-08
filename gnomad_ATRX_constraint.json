@@ -1,0 +1,17 @@
+{
+  "data": {
+    "gene": {
+      "gene_id": "ENSG00000085224",
+      "symbol": "ATRX",
+      "gnomad_constraint": {
+        "pli": 1,
+        "oe_lof": 0.06954411019525286,
+        "oe_lof_lower": 0.04456374000568344,
+        "oe_lof_upper": 0.11267634866320445,
+        "oe_mis": 0.774015813228727,
+        "oe_mis_lower": 0.7404718523813293,
+        "oe_mis_upper": 0.8093346828914915
+      }
+    }
+  }
+}

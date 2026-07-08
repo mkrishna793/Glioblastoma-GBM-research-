@@ -1,0 +1,198 @@
+================================================================================
+IDH-MUTANT CLINICAL PROGRESSION & THERAPY RESPONSE REPORT (N=35)
+================================================================================
+Cohort size: 35 patients
+Grade 2 (Low Grade): N=16
+Grade 4 (High Grade / Aggressive): N=15
+TMZ Treated: N=8
+TMZ Untreated: N=4
+
+
+================================================================================
+SECTION 1: MOLECULAR SWITCHES DRIVING GRADE 2 TO GRADE 4 PROGRESSION
+================================================================================
+
+--- DNA Methylation Changes in Grade 4 Progression (G2=13, G4=12) ---
+  Top 10 Hypermethylated Probes in Grade 4 (Loss of gene access):
+    cg12087432: Delta Beta = 0.5294 (G2 Mean=0.1706 -> G4 Mean=0.7000)
+    cg07137955: Delta Beta = 0.5038 (G2 Mean=0.0503 -> G4 Mean=0.5541)
+    cg20336507: Delta Beta = 0.4728 (G2 Mean=0.0955 -> G4 Mean=0.5683)
+    cg20392240: Delta Beta = 0.4684 (G2 Mean=0.0650 -> G4 Mean=0.5334)
+    cg10058597: Delta Beta = 0.4555 (G2 Mean=0.3149 -> G4 Mean=0.7703)
+    cg20541238: Delta Beta = 0.4494 (G2 Mean=0.0888 -> G4 Mean=0.5382)
+    cg20447655: Delta Beta = 0.4434 (G2 Mean=0.0973 -> G4 Mean=0.5406)
+    cg11889769: Delta Beta = 0.4305 (G2 Mean=0.0593 -> G4 Mean=0.4898)
+    cg22333214: Delta Beta = 0.4281 (G2 Mean=0.0997 -> G4 Mean=0.5278)
+    cg06496484: Delta Beta = 0.4187 (G2 Mean=0.2565 -> G4 Mean=0.6751)
+  Top 10 Hypomethylated Probes in Grade 4 (Gain of gene access):
+    cg10937408: Delta Beta = -0.6330 (G2 Mean=0.9003 -> G4 Mean=0.2673)
+    cg12290492: Delta Beta = -0.6267 (G2 Mean=0.8869 -> G4 Mean=0.2602)
+    cg19622623: Delta Beta = -0.6119 (G2 Mean=0.8971 -> G4 Mean=0.2852)
+    cg00035689: Delta Beta = -0.6079 (G2 Mean=0.9364 -> G4 Mean=0.3285)
+    cg01890568: Delta Beta = -0.6066 (G2 Mean=0.9303 -> G4 Mean=0.3237)
+    cg17735539: Delta Beta = -0.5993 (G2 Mean=0.8808 -> G4 Mean=0.2815)
+    cg13516704: Delta Beta = -0.5991 (G2 Mean=0.9190 -> G4 Mean=0.3199)
+    cg15113110: Delta Beta = -0.5986 (G2 Mean=0.9106 -> G4 Mean=0.3120)
+    cg11300126: Delta Beta = -0.5840 (G2 Mean=0.9314 -> G4 Mean=0.3474)
+    cg01086974: Delta Beta = -0.5817 (G2 Mean=0.8979 -> G4 Mean=0.3162)
+
+  MGMT Promoter Methylation in G2 vs G4:
+    cg12434587: G2 Mean=0.2272, G4 Mean=0.1951
+    cg12981137: G2 Mean=0.4423, G4 Mean=0.4103
+    cg15765353: G2 Mean=0.8910, G4 Mean=0.8554
+    cg21862320: G2 Mean=0.9423, G4 Mean=0.9468
+
+--- RNA Expression Changes in Grade 4 Progression (G2=16, G4=14) ---
+  Top 10 Upregulated Genes in Grade 4:
+    MSMP: Log2FC = 7.93
+    IGKC: Log2FC = 6.20
+    IGHG1: Log2FC = 6.11
+    POSTN: Log2FC = 5.60
+    IGHG3: Log2FC = 5.43
+    IGLC1: Log2FC = 5.23
+    H19: Log2FC = 5.03
+    IGFBP2: Log2FC = 4.78
+    AC096579.7: Log2FC = 4.77
+    TRDC: Log2FC = 4.66
+  Top 10 Downregulated Genes in Grade 4:
+    RPPH1: Log2FC = -11.75
+    HIST1H4C: Log2FC = -7.81
+    RN7SL2: Log2FC = -7.78
+    RN7SL1: Log2FC = -7.75
+    SCARNA10: Log2FC = -6.83
+    RN7SL3: Log2FC = -6.72
+    SCARNA2: Log2FC = -6.33
+    HIST1H4E: Log2FC = -5.64
+    HIST1H4J: Log2FC = -4.35
+    HIST1H1E: Log2FC = -4.30
+
+  Key Marker Expression in G2 vs G4:
+    MGMT: Log2FC = 0.47 (G2 Mean=4.63 -> G4 Mean=6.78)
+    STAT3: Log2FC = 0.46 (G2 Mean=33.21 -> G4 Mean=46.18)
+    EGFR: Log2FC = -0.68 (G2 Mean=32.87 -> G4 Mean=20.19)
+    GRIA2: Log2FC = -1.74 (G2 Mean=65.46 -> G4 Mean=18.85)
+    NLGN3: Log2FC = -0.07 (G2 Mean=31.40 -> G4 Mean=29.78)
+    CD44: Log2FC = 1.86 (G2 Mean=34.79 -> G4 Mean=129.17)
+    OLIG2: Log2FC = 0.16 (G2 Mean=173.01 -> G4 Mean=193.26)
+    SOX2: Log2FC = -0.09 (G2 Mean=281.58 -> G4 Mean=264.49)
+    CHI3L1: Log2FC = 4.43 (G2 Mean=10.98 -> G4 Mean=257.79)
+    VIM: Log2FC = 1.61 (G2 Mean=380.38 -> G4 Mean=1166.16)
+
+--- Protein Abundance Differences in Grade 4 Progression (G2=16, G4=15) ---
+    MGMT Protein: G2 Mean=26.60, G4 Mean=29.96, p=0.7104 (not significant)
+    STAT3 Protein: G2 Mean=86.11, G4 Mean=82.84, p=0.4891 (not significant)
+    EGFR Protein: G2 Mean=146.40, G4 Mean=104.98, p=0.0168 (SIGNIFICANT)
+    GRIA2 Protein: G2 Mean=119.01, G4 Mean=97.77, p=0.0832 (not significant)
+    NLGN3 Protein: G2 Mean=171.95, G4 Mean=131.86, p=0.0010 (SIGNIFICANT)
+    CD44 Protein: G2 Mean=412.74, G4 Mean=431.01, p=0.8588 (not significant)
+    OLIG2 Protein: G2 Mean=11.40, G4 Mean=15.07, p=1.0000 (not significant)
+    SOX2 Protein: G2 Mean=37.41, G4 Mean=34.57, p=0.9699 (not significant)
+    CHI3L1 Protein: G2 Mean=192.28, G4 Mean=109.74, p=0.1469 (not significant)
+    VIM Protein: G2 Mean=11027.53, G4 Mean=10984.82, p=0.4891 (not significant)
+
+--- Phospho-Signaling Activation in Grade 4 Progression (G2=16, G4=15) ---
+    STAT3_Y705 Phospho: G2 Mean=748174.21, G4 Mean=447420.21, p=0.2794 (not significant)
+    STAT3_S727 Phospho: G2 Mean=108908.85, G4 Mean=154923.32, p=0.6009 (not significant)
+    EGFR_S991 Phospho: G2 Mean=1495694.93, G4 Mean=1044883.98, p=0.1280 (not significant)
+    EGFR_T693 Phospho: G2 Mean=1490917.61, G4 Mean=1640922.05, p=0.7652 (not significant)
+    AKT1_S129 Phospho: G2 Mean=387448.24, G4 Mean=493087.87, p=0.4715 (not significant)
+    MAPK1_Y187 Phospho: G2 Mean=7896986.22, G4 Mean=2060501.27, p=0.0701 (not significant)
+
+
+================================================================================
+SECTION 2: MOLECULAR DRIVERS OF PROTEOMIC CLUSTERS (NEU, AFM, PPR, IME)
+================================================================================
+
+--- Subtype: NEU (N_RNA=11, N_Prot=11) ---
+  Mean RNA expression in NEU:
+    MGMT: 5.88
+    STAT3: 38.61
+    EGFR: 31.59
+    GRIA2: 58.78
+    NLGN3: 38.89
+    CD44: 45.82
+    OLIG2: 199.84
+    SOX2: 261.43
+    CHI3L1: 58.51
+    VIM: 542.71
+  Mean Protein abundance in NEU:
+    MGMT Protein: 29.31
+    STAT3 Protein: 68.20
+    EGFR Protein: 105.03
+    GRIA2 Protein: 135.06
+    NLGN3 Protein: 169.66
+    CD44 Protein: 227.19
+    SOX2 Protein: 24.77
+    CHI3L1 Protein: 169.82
+    VIM Protein: 3718.59
+
+--- Subtype: AFM (N_RNA=9, N_Prot=9) ---
+  Mean RNA expression in AFM:
+    MGMT: 6.06
+    STAT3: 31.87
+    EGFR: 29.32
+    GRIA2: 55.38
+    NLGN3: 25.63
+    CD44: 37.99
+    OLIG2: 183.34
+    SOX2: 324.49
+    CHI3L1: 23.17
+    VIM: 608.38
+  Mean Protein abundance in AFM:
+    MGMT Protein: 22.65
+    STAT3 Protein: 105.49
+    EGFR Protein: 177.10
+    GRIA2 Protein: 107.58
+    NLGN3 Protein: 176.03
+    CD44 Protein: 419.37
+    OLIG2 Protein: 9.82
+    SOX2 Protein: 42.80
+    CHI3L1 Protein: 235.17
+    VIM Protein: 10228.05
+
+--- Subtype: PPR (N_RNA=9, N_Prot=9) ---
+  Mean RNA expression in PPR:
+    MGMT: 6.21
+    STAT3: 46.02
+    EGFR: 16.22
+    GRIA2: 17.30
+    NLGN3: 29.41
+    CD44: 147.50
+    OLIG2: 224.97
+    SOX2: 272.50
+    CHI3L1: 302.60
+    VIM: 1010.99
+  Mean Protein abundance in PPR:
+    MGMT Protein: 31.48
+    STAT3 Protein: 87.16
+    EGFR Protein: 88.90
+    GRIA2 Protein: 103.99
+    NLGN3 Protein: 134.86
+    CD44 Protein: 428.83
+    OLIG2 Protein: 19.48
+    SOX2 Protein: 37.08
+    CHI3L1 Protein: 91.15
+    VIM Protein: 13472.43
+
+--- Subtype: IME (N_RNA=5, N_Prot=6) ---
+  Mean RNA expression in IME:
+    MGMT: 6.32
+    STAT3: 39.08
+    EGFR: 21.67
+    GRIA2: 24.48
+    NLGN3: 21.15
+    CD44: 106.98
+    OLIG2: 112.49
+    SOX2: 199.00
+    CHI3L1: 57.39
+    VIM: 832.12
+  Mean Protein abundance in IME:
+    MGMT Protein: 29.48
+    STAT3 Protein: 81.06
+    EGFR Protein: 127.03
+    GRIA2 Protein: 85.11
+    NLGN3 Protein: 138.04
+    CD44 Protein: 806.60
+    SOX2 Protein: 20.26
+    CHI3L1 Protein: 85.41
+    VIM Protein: 19778.48

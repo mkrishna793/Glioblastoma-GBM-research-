@@ -1,0 +1,5 @@
+- [x] Test Hypothesis 1: Clonal Selection vs. Plasticity (VAF vs. RNA)
+- [x] x Test Hypothesis 2: Longitudinal Subtype Drift (NEU -> PPR/IME)
+- [x] Test Hypothesis 3: Genotype-Specific Immune Reciprocal Feedback (ATRX Fork)
+- [x] Test Hypothesis 4: DNA Damage Escape via Mismatch Repair (MMR)
+- [x] Compile walkthrough.md with all results

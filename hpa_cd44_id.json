@@ -1,0 +1,16 @@
+{
+  "gene_symbol": "CD44",
+  "ensembl_id": "ENSG00000026508",
+  "synonyms": [
+    "CD44R",
+    "CSPG8",
+    "HCELL",
+    "IN",
+    "MC56",
+    "MDU2",
+    "MDU3",
+    "MIC4",
+    "Pgp1"
+  ],
+  "description": "CD44 molecule (Indian blood group)"
+}

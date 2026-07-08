@@ -1,0 +1,51 @@
+{
+  "identifiers": [
+    {
+      "id": "SOX2",
+      "exp": [],
+      "mapsTo": [
+        {
+          "resource": "UNIPROT",
+          "ids": [
+            "P48431"
+          ]
+        },
+        {
+          "resource": "ENSEMBL",
+          "ids": [
+            "ENSG00000181449"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "STAT3",
+      "exp": [],
+      "mapsTo": [
+        {
+          "resource": "UNIPROT",
+          "ids": [
+            "P40763"
+          ]
+        },
+        {
+          "resource": "ENSEMBL",
+          "ids": [
+            "ENSG00000168610"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    "UNIPROT",
+    "ENSEMBL"
+  ],
+  "expNames": [],
+  "found": 2,
+  "totalEntitiesCount": 4,
+  "resourceToMappedEntitiesCount": {
+    "UNIPROT": 2,
+    "ENSEMBL": 2
+  }
+}

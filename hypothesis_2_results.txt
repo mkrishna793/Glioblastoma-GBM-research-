@@ -1,0 +1,25 @@
+================================================================================
+HYPOTHESIS 2 TESTING: LONGITUDINAL PHENOTYPIC SUBTYPE DRIFT (TP -> R1)
+================================================================================
+
+Matched Patients analyzed: 179
+
+Subtype    |  TP Mean Z |  R1 Mean Z |   Wilcoxon stat |      p-value | Direction           
+-------------------------------------------------------------------------------------
+NEU        |    -0.0810 |    -0.0482 |          7999.0 |   9.3571e-01 | INCREASES in R1 (non-sig)
+AFM        |     0.1006 |     0.1147 |          7761.0 |   6.7194e-01 | INCREASES in R1 (non-sig)
+PPR        |     0.1159 |    -0.1283 |          6000.0 |   3.0753e-03 | DECREASES in R1 (significant)
+IME        |     0.1179 |     0.1344 |          7739.0 |   6.4898e-01 | INCREASES in R1 (non-sig)
+
+
+Subtype Transition Matrix (Number of Patients):
+R1   AFM  IME  NEU  PPR
+TP                     
+AFM   28   15    7    4
+IME    8   19    6    4
+NEU    6    4   19   11
+PPR    7    8   14   19
+
+Total patients analyzed: 179
+Patients who switched subtype: 94 (52.51%)
+Patients who remained stable: 85 (47.49%)

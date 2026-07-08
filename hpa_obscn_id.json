@@ -1,0 +1,11 @@
+{
+  "gene_symbol": "OBSCN",
+  "ensembl_id": "ENSG00000154358",
+  "synonyms": [
+    "ARHGEF30",
+    "KIAA1556",
+    "KIAA1639",
+    "UNC89"
+  ],
+  "description": "Obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF"
+}
