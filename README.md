@@ -1,4 +1,5 @@
-# Multi-Omic Deconvolution of Phenotypic Plasticity & Quantum Evolution in Glioblastoma (GBM)
+# Multi-Omic Deconvolution of Phenotypic Plasticity & Quantum Evolution in Glioblastoma (GBM) 
+note:- dont use this project cuz work is still needed and also this is so meesy 
 
 This repository contains the complete codebase, manuscript drafts, analysis scripts, and quantum simulation resources for our multi-omic study investigating chemotherapy-induced proneural-to-mesenchymal transition (PMT) and subclonal evolution in glioblastoma.
 
